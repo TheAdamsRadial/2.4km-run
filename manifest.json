@@ -1,0 +1,8 @@
+{
+  "name": "2.4 km Run Assist",
+  "short_name": "2.4K Run",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}

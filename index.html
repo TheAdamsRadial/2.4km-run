@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2.4 km Run Assist</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>2.4 km Run Assist</h1>
+
+<label>
+  Target Time (mm:ss):
+  <input id="targetTime" type="text" placeholder="09:30">
+</label>
+
+<div id="timer">00:00</div>
+
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+<button onclick="reset()">Reset</button>
+
+<script src="script.js"></script>
+</body>
+</html>
